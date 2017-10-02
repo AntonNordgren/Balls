@@ -69,6 +69,7 @@ function createNewBall(){
 
 function leftClick(){
     createNewBall();
+    console.log(listOfBalls.length);
 }
 
 function update(){
