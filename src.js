@@ -65,11 +65,11 @@ function createNewBall(){
     }
 
     listOfBalls.push(new Ball(x, y, 20, yV, xV,color));
+    console.log(listOfBalls.length);
 }
 
 function leftClick(){
     createNewBall();
-    console.log(listOfBalls.length);
 }
 
 function update(){
